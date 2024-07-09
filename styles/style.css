@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 50px 150px;
+    max-width: 1440px;
 }
 .navbar h4 {
     font-size: 28px;
@@ -21,6 +22,7 @@ body {
     line-height: 33px;
     width: 114px;
     height: 34px;
+    margin-left: 220px;
 
 }
 .navbar input {
@@ -34,6 +36,62 @@ body {
     border-radius: 8px;
     text-align: center;
     color: #0D1321;
-
+    margin-right: 70px;
 }
 /* Navbar ends here */
+
+/* banner section starts here */
+
+.banner-container {
+    max-width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content-container h1 {
+    width: 998px;
+    height: 136px;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px;
+}
+.banner-content-container p {
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.btn {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    margin-top: 32px;
+}
+
+/* banner section ends here */
