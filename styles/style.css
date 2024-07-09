@@ -95,3 +95,120 @@ body {
 }
 
 /* banner section ends here */
+
+/* section-1 starts here */
+
+.section-1 {
+   max-width: 1140px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   margin-top: 74px;
+   padding: 80px 97px;
+   gap: 48px;
+   border-radius: 16px;
+    /* background: rgba(13, 19, 33, 0.02); */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.section-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-header {
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0px;
+}
+.section-description {
+    width: 852px;
+    height: 52px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.section-content-container {
+    display: flex;
+    justify-content: space-between;
+    padding:48px ;
+    box-shadow: 20px 20px 20%;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+
+    
+}
+.section-1-content {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+
+}
+.section-1-content-header {
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+
+}
+.section-1-content-description {
+    width: 468px;
+    height: 52px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.section-1-content a {
+    width: 150px;
+    height: 45px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 32px;
+    padding: 12px 20px 12px 20px;
+    border: 2px solid rgba(13, 19, 33, 0.7);
+    text-decoration: none;
+
+}
+.section-1-img-container {
+    
+
+}
+.section-2-content-description {
+    width: 468px;
+    height: 52px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 25px;
+
+}
+/* section-1 ends here */
