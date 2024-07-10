@@ -216,8 +216,8 @@ body {
 /* my inspiration-section starts here */
 .inspiration-section {
     width: 1140px;
-height: 775px;
-margin: 90px auto;
+    height: 775px;
+    margin: 90px auto;
 }
 .inspiration-container {
     display: flex;
@@ -242,7 +242,7 @@ margin: 90px auto;
     display: flex;
     flex-direction: column;
     max-width: 1140px;
-    height: 640px;
+    height: 440px;
     margin: 150px auto;
 }
 .current-target-header-container {
@@ -281,10 +281,10 @@ margin: 90px auto;
 }
 .card a {
     color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 700;
-text-align: left;
-margin: 24px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin: 24px 0px;
 }
 .card1{
     background: rgba(255, 76, 30, 0.05);
@@ -296,3 +296,69 @@ margin: 24px 0px;
     background: rgba(255, 223, 0, 0.05);
 }
 /* My current target section ends here */
+
+/* support section starts here  */
+
+.support-section {
+    height: 313px;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+}
+.support-section-container {
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-section-container h2{
+    width: 852px;
+    height: 39px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px 0px;
+}   
+.support-section-container p{
+    width: 852px;
+    height: 52px;
+    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    opacity: 0.7;
+
+}
+.input-container input{
+    width: 548px;
+    height: 57px;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.07);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
+.input-container button {
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    font-size: 20px;
+    font-weight: 600;
+}
+/* support section starts here  */
