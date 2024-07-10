@@ -136,7 +136,7 @@ body {
     width: 852px;
     height: 52px;
     margin: 24px 0px;
-    color: rgb(13, 19, 33);
+    color: rgba(13, 19, 33, 0.7);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -212,3 +212,27 @@ body {
 
 }
 /* section-1 ends here */
+
+/* my inspiration-section starts here */
+.inspiration-section {
+    width: 1140px;
+height: 775px;
+margin: 90px auto;
+}
+.inspiration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-container {
+    border: 1px solid rgba(13, 19, 33, 0.2) ;
+    border-radius: 16px;
+    height: 575px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+/* my inspiration-section ends here */
