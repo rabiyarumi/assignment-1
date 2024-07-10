@@ -81,17 +81,19 @@ body {
     margin-top: 24px;
     margin-bottom: 32px;
 }
-.btn {
-    width: 208px;
-    height: 66px;
+.linked-btn{
+    width: 244px;
+    height: 65px;
+    display: inline-block;
+    padding: 21px 20px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    border: none;
     margin-top: 32px;
+    text-decoration: none;
+    color: white;
 }
 
 /* banner section ends here */
@@ -362,3 +364,30 @@ body {
     font-weight: 600;
 }
 /* support section starts here  */
+
+/* footer section starts here */
+.footer {
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 79px auto 0px auto;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+
+}
+.footer h4 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-icons {
+    max-width: 158px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+/* footer section ends here */
