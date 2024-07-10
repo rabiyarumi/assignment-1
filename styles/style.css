@@ -236,3 +236,63 @@ margin: 90px auto;
     margin-top: 40px;
 }
 /* my inspiration-section ends here */
+
+/* My current target section starts here */
+.current-target-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    height: 640px;
+    margin: 150px auto;
+}
+.current-target-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.current-target-card-container {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.card {
+    max-width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 8px 0px;
+}
+.card p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px;
+}
+.card a {
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+margin: 24px 0px;
+}
+.card1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.card2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.card3{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* My current target section ends here */
